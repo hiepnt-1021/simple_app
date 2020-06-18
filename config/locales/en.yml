@@ -1,33 +1,53 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  en: "English"
+  vi: "Vietnamese"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      register: "Sign up now"
+      head: "Pages Home"
+      content: "This is the home page for the"
+      intro: "Sample application"
+      title: "Home"
+      ruby_rails: "Ruby on Rails"
+      alt_rails: "Rails logo"
+    help:
+      title: "Help"
+      ruby_rails: "Ruby on Rails"
+      help: "Help"
+      get_help: "To get help on this sample app, see the"
+      get_help_rails: "Get help on the Ruby on Rails Tutorial at the"
+      help_page_rails: "Rails Tutorial help page"
+  pages:
+    home:
+      head: "Pages Home"
+      content: "This is the home page for the"
+      intro: "Sample application"
+      title: "Home"
+      ruby_rails: "Ruby on Rails"
+    help:
+      title: "Help"
+      ruby_rails: "Ruby on Rails"
+      help: "Help"
+      get_help: "To get help on this sample app, see the"
+      get_help_rails: "Get help on the Ruby on Rails Tutorial at the"
+      help_page_rails: "Rails Tutorial help page"
+  shared:
+    header:
+      sample_app: "Sample App"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      ruby_rails: "Ruby on Rails Tutorial"
+      michael: "Michael Hartl"
+  users:
+    new:
+      sign_up: "Sign up"
+      user_title: "This will be a signup page for new users."
