@@ -1,0 +1,51 @@
+vi:
+  en: "Tiếng Anh"
+  vi: "Tiếng Việt"
+  base_title: "Chương trình mẫu về Ruby On Rails"
+  layouts:
+    application:
+      title: "Chương trình học Ruby on rails"
+      sample_app: "sample app"
+  static_pages:
+    home:
+      register: "Đăng kí ngay"
+      head: "Trang chủ"
+      content: "Đây là trang chủ về"
+      intro: "Chương trình mẫu"
+      title: "Trang chủ"
+      ruby_rails: "Chương trình học Rails"
+      alt_rails: "Rails logo"
+    help:
+      title: "Trợ giúp"
+      ruby_rails: "Chương trình học Rails"
+      help: "Trợ giúp"
+      get_help: "Để xem hướng dẫn "
+      get_help_rails: "Để xem  Ruby on Rails Tutorial tại "
+      help_page_rails: "Trang trợ giúp Rails Tutorial "
+  pages:
+    home:
+      head: "Trang chủ"
+      content: "Đây là trang chủ về"
+      intro: "Chương trình mẫu"
+      title: "Trang chủ"
+      ruby_rails: "Chương trình học Rails"
+    help:
+      title: "Trợ giúp"
+      ruby_rails: "Chương trình học Rails"
+      help: "Trợ giúp"
+      get_help: "Để xem hướng dẫn "
+      get_help_rails: "Để xem  Ruby on Rails Tutorial tại "
+      help_page_rails: "Trang trợ giúp Rails Tutorial "
+  shared:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      ruby_rails: "Ruby on Rails Tutorial"
+      michael: "Michael Hartl"
+  u
+
