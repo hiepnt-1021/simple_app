@@ -11,6 +11,7 @@ gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.7"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "rails-i18n"
+gem "config"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
@@ -27,6 +28,11 @@ group :test do
   gem "capybara", ">= 2.15"
   gem "selenium-webdriver"
   gem "webdrivers"
+end
+
+group :development, :test do
+  gem "rubocop", "~> 0.74.0", require: false
+  gem "rubocop-rails", "~> 2.3.2", require: false
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

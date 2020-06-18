@@ -1,16 +1,13 @@
+<% provide :title, t(".head") %>
+<div class="center jumbotron">
+  <h1> <%= t ".intro" %></h1>
+  <p><%= full_title t".content" %></p>
+  <p>
+    <br>
+    <%= t ".content" %>
+    <%= t ".intro" %>
+    <br>
 
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-  <% provide :title, "Home" %>
-<h1>Sample App</h1>
-<p>
-This is the home page for the
-<a href="http://www.railstutorial.org/">Ruby on
-Rails Tutorial</a>
-sample application.
-</p>
-</body>
-</html>
+  </p>
+</div>
+
