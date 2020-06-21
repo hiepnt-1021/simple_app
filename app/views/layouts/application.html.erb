@@ -3,7 +3,7 @@
   <head>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <title><%= full_title yield :title %></title>
     <%= link_to t("en"), locale: :en %>
     <%= link_to t("vi"), locale: :vi %>
 

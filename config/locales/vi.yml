@@ -5,7 +5,7 @@ vi:
   layouts:
     application:
       title: "Chương trình học Ruby on rails"
-      sample_app: "sample app"
+      sample_app: "Sample app"
   static_pages:
     home:
       register: "Đăng kí ngay"
@@ -15,6 +15,7 @@ vi:
       title: "Trang chủ"
       ruby_rails: "Chương trình học Rails"
       alt_rails: "Rails logo"
+      rails_sample: "Ruby on Rails Tutorial Sample App"
     help:
       title: "Trợ giúp"
       ruby_rails: "Chương trình học Rails"
@@ -47,5 +48,5 @@ vi:
       news: "Tin tức"
       ruby_rails: "Ruby on Rails Tutorial"
       michael: "Michael Hartl"
-  u
+
 
