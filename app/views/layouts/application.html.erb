@@ -3,29 +3,15 @@
   <head>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= link_to t("en"), locale: :en %>
-    <%= link_to t("vi"), locale: :vi %>
+    <title><%= full_title yield :title %></title>
 
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
-    <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
   </head>
-
+  <%= render "shares/header"%>
   <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <%= link_to t(".sample_app"), "#", id: "logo" %>
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to t(".home"), "#" %></li>
-            <li><%= link_to t(".help"), "#" %></li>
-            <li><%= link_to t(".login"), "#" %></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
     <div class="container">
       <%= yield %>
     </div>
 </body>
+  <%= render "shares/footer" %>
 </html>
