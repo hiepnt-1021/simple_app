@@ -5,9 +5,11 @@
   <p>
     <br>
     <%= t ".content" %>
-    <%= t ".intro" %>
     <%= link_to t(".ruby_rails"), Settings.ruby_rails_book %>
+    <%= t ".intro" %>
     <br>
+  <%= link_to t(".register"), signup_path, class: "btn btn-lg btn-primary" %>
+  </p>
+  <%= link_to image_tag("rails.png", alt: t(".alt_rails")), Settings.ruby_rails_book %>
 </div>
-
 

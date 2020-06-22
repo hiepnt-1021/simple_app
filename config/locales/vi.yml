@@ -23,6 +23,10 @@ vi:
       get_help: "Để xem hướng dẫn "
       get_help_rails: "Để xem  Ruby on Rails Tutorial tại "
       help_page_rails: "Trang trợ giúp Rails Tutorial "
+    login:
+      halo: "Chao chung ban, halo friend"
+    signup:
+      halo: "Dang ky ban ei, halo friend"
   pages:
     home:
       head: "Trang chủ"
