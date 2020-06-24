@@ -23,6 +23,8 @@ vi:
       get_help: "Để xem hướng dẫn "
       get_help_rails: "Để xem  Ruby on Rails Tutorial tại "
       help_page_rails: "Trang trợ giúp Rails Tutorial "
+    login:
+      hello: " chao friendssssssss"
   pages:
     home:
       head: "Trang chủ"
